@@ -1,10 +1,12 @@
 body{
   background-color: rgb(200, 194, 226);
+  font-family: sans-serif;
 }
 
+/*grid layout for everything*/
 .container {  display: grid;
   grid-template-columns: 1fr 0.1fr 1.8fr 1.3fr;
-  grid-template-rows: 0.25fr 0.25fr 2.9fr 0.8fr 0.4fr;
+  grid-template-rows: 0.125fr 0.25fr 2.9fr 0.8fr 0.4fr;
   gap: 0px 0px;
   grid-auto-flow: row;
 }
@@ -42,14 +44,14 @@ body{
 .owner { grid-area: 5 / 1 / 6 / 5; }
 
 
-
+/*box of everything and anything*/
 .container{
   border: 3px solid rgb(255, 0, 0);
   height: 1500px;
 }
 
 
-
+/*Logo <3*/
 .logo{
   border: 3px solid rgb(85, 255, 0);
   position: sticky;
@@ -57,15 +59,28 @@ body{
 }
 
 
-
+/*Search balk*/
 .search{
   border: 3px solid rgb(173, 255, 143);
   position: sticky;
   top: 0.1px;
 }
 
+/*actual thing that searches*/
+.search input[type="text"]{
+  font-size: 20px;
+  height: 38px;
+  width: 545px;
+}
 
+/*search button, might remove later and replace with image or just remove it completely*/
+.search button{
+  height: 45px;
+  width: 60px;
+  vertical-align: top;
+}
 
+/*thing where i place cart thing ig? Dk yet*/
 .addons{
   border: 3px solid rgb(27, 70, 34);
   position: sticky;
@@ -73,19 +88,19 @@ body{
 }
 
 
-
+/*thing with home, new and those things will be placed in here*/
 .additional-info{
   border: 3px solid rgb(17, 0, 255);
 }
 
 
-
+/*box where filters will be placed*/
 .Filter{
   border: 3px solid rgb(255, 0, 115);
 }
 
 
-
+/*boxes of produce*/
 .products{
   border: 3px solid rgb(255, 123, 0);
   height: auto;
@@ -136,13 +151,13 @@ body{
   border: 3px solid rgb(79, 15, 15);
 }
 
-
+/*disclaimer thing idk bro im not a lawyer*/
 .disclaimer{
   border: 3px solid black;
 }
 
 
-
+/*idk i saw this n i added this bcs it looked cute*/
 .owner{
   border: 3px solid black;
 }
