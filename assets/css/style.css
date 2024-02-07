@@ -25,6 +25,7 @@ body{
     "product4 product5 product6"
     "product7 product8 product9";
   grid-area: 3 / 3 / 4 / 5;
+  height: auto;
 }
 
 #product1 { grid-area: product1; }
@@ -47,11 +48,15 @@ body{
   height: 1500px;
 }
 
+
+
 .logo{
   border: 3px solid rgb(85, 255, 0);
   position: sticky;
   top: 0.1px;
 }
+
+
 
 .search{
   border: 3px solid rgb(173, 255, 143);
@@ -59,64 +64,84 @@ body{
   top: 0.1px;
 }
 
+
+
 .addons{
   border: 3px solid rgb(27, 70, 34);
   position: sticky;
   top: 0.1px;
 }
 
+
+
 .additional-info{
   border: 3px solid rgb(17, 0, 255);
 }
 
+
+
 .Filter{
   border: 3px solid rgb(255, 0, 115);
 }
+
+
 
 .products{
   border: 3px solid rgb(255, 123, 0);
   height: auto;
 }
 
+
 #product1{
   border: 3px solid rgb(255, 167, 227);
 }
+
 
 #product2{
   border: 3px solid rgb(249, 110, 180);
 }
 
+
 #product3{
   border: 3px solid rgb(197, 100, 116);
 }
+
 
 #product4{
   border: 3px solid rgb(133, 238, 152);
 }
 
+
 #product5{
   border: 3px solid rgb(243, 226, 118);
 }
+
 
 #product6{
   border: 3px solid rgb(255, 116, 61);
 }
 
+
 #product7{
   border: 3px solid rgb(74, 72, 136);
 }
+
 
 #product8{
   border: 3px solid rgb(107, 107, 101);
 }
 
+
 #product9{
   border: 3px solid rgb(79, 15, 15);
 }
 
+
 .disclaimer{
   border: 3px solid black;
 }
+
+
 
 .owner{
   border: 3px solid black;
