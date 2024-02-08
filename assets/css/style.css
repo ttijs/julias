@@ -1,67 +1,148 @@
 body{
-  background-color: rgb(200, 194, 226);
+  background-color: #942B3B;
   font-family: sans-serif;
 }
 
 /*grid layout for everything*/
-.container {  display: grid;
-  grid-template-columns: 0.5fr 0.1fr 1.8fr 1.3fr;
-  grid-template-rows: 0.125fr 0.25fr 2.9fr 0.8fr 0.4fr;
+.container {  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.125fr 0.20fr 2fr 1fr 0.5fr 0.25fr;
   gap: 0px 0px;
   grid-auto-flow: row;
+  grid-template-areas:
+    "logo logo search search addons"
+    "additional-info additional-info additional-info additional-info additional-info"
+    "Filter products products products products"
+    "Filter products products products products"
+    "disclaimer disclaimer disclaimer disclaimer disclaimer"
+    "owner owner owner owner owner";
+    width: 80%;
+    margin-left: 10%;
+    
 }
 
-.logo { grid-area: 1 / 1 / 2 / 3; }
-.search { grid-area: 1 / 3 / 2 / 5; }
-.addons { grid-area: 1 / 4 / 2 / 5; }
-.additional-info { grid-area: 2 / 1 / 3 / 5; }
-.Filter { grid-area: 3 / 1 / 4 / 3; }
+.logo { 
+  grid-area: logo; 
+}
+.search { 
+  grid-area: search; 
+}
+.addons { 
+  grid-area: addons; 
+}
 
-.products {  display: grid;
+.additional-info { 
+  grid-area: additional-info; 
+} 
+
+.Filter { 
+  grid-area: Filter; 
+}
+
+.products {  
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 10px 10px;
+  gap: 25px 25px;
   grid-auto-flow: row;
   grid-template-areas:
     "product1 product2 product3"
     "product4 product5 product6"
     "product7 product8 product9";
-  grid-area: 3 / 3 / 4 / 5;
+  grid-area: 3 / 2 / 5 / 6;
   height: auto;
+  justify-content: center;
+
+
 }
 
-#product1 { grid-area: product1; }
-#product2 { grid-area: product2; }
-#product3 { grid-area: product3; }
-#product4 { grid-area: product4; }
-#product5 { grid-area: product5; }
-#product6 { grid-area: product6; }
-#product7 { grid-area: product7; }
-#product8 { grid-area: product8; }
-#product9 { grid-area: product9; }
 
-.disclaimer { grid-area: 4 / 1 / 5 / 5; }
-.owner { grid-area: 5 / 1 / 6 / 5; }
+#product1 { 
+  grid-area: product1; 
+  margin-left: 5%; 
+  margin-top: 5%;
+}
+
+#product2 { 
+  grid-area: product2; 
+  margin-top: 5%;
+}
+
+#product3 { 
+  grid-area: product3; 
+  margin-right: 5%; 
+  margin-top: 5%;
+}
+
+#product4 { 
+  grid-area: product4; 
+  margin-left: 5%;
+}
+
+#product5 { 
+  grid-area: product5; 
+}
+
+#product6 { 
+  grid-area: product6; 
+  margin-right: 5%;
+}
+
+#product7 { 
+  grid-area: product7; 
+  margin-left: 5%; 
+  margin-bottom: 5%;
+}
+
+#product8 { 
+  grid-area: product8; 
+  margin-bottom: 5%;
+}
+
+#product9 { 
+  grid-area: product9; 
+  margin-right: 5%; 
+  margin-bottom: 5%;
+}
 
 
+.disclaimer { 
+  grid-area: disclaimer; 
+}
+
+
+.owner { 
+  grid-area: owner; 
+}
+
+
+
+
+
+
+/*The make up of everything, eventually merge them together for shorter code pls 
 /*box of everything and anything*/
 .container{
-  border: 3px solid rgb(255, 0, 0);
+  border: 3px solid black;
   height: 1500px;
+  background-color: white;
 }
 
 
 /*Logo <3*/
 .logo{
-  border: 3px solid rgb(85, 255, 0);
+  border: 3px solid black;
   position: sticky;
   top: 0.1px;
+  background-color: #720714;
+  color: rgb(255, 237, 203);
 }
 
 
 /*Search balk*/
 .search{
-  border: 3px solid rgb(173, 255, 143);
+  border: 3px solid black;
   position: sticky;
   top: 0.1px;
 }
@@ -69,95 +150,123 @@ body{
 /*actual thing that searches*/
 .search input[type="text"]{
   font-size: 20px;
-  height: 38px;
-  width: 545px;
-}
-
-/*search button, might remove later and replace with image or just remove it completely*/
-.search button{
-  height: 45px;
-  width: 60px;
-  vertical-align: top;
+  height: 100%;
+  width: 100%;
+  margin: -0.75%;
+  background-color: #720714;
+  color: rgb(255, 237, 203);
+  border: none;
 }
 
 /*thing where i place cart thing ig? Dk yet*/
 .addons{
-  border: 3px solid rgb(27, 70, 34);
+  border: 3px solid black;
   position: sticky;
   top: 0.1px;
+  background-color: #720714;
+  color: rgb(255, 237, 203);
 }
-
 
 /*thing with home, new and those things will be placed in here*/
 .additional-info{
-  border: 3px solid rgb(17, 0, 255);
+  border: 3px solid black;
+  background-color: #786163;
+  color: rgb(255, 237, 203);
+}
+
+.additional-info button {
+  background-color: #786163;
+  color: rgb(255, 237, 203);
+  height: 100%;
+  width: 30%;
+  gap: 20%;
+  text-align: center;
+  border: none;
+  margin-left: 2%;
+}
+
+.additional-info button:hover{
+  background-color: #6a5456;
 }
 
 
 /*box where filters will be placed*/
 .Filter{
-  border: 3px solid rgb(255, 0, 115);
+  border: 3px solid black;
+  background-color: #b65863;
+  color: rgb(255, 237, 203);
+  justify-content: center;
+  align-items: center;
 }
 
+.Filter select{
+  background-color: #96797c;
+}
 
 /*boxes of produce*/
 .products{
-  border: 3px solid rgb(255, 123, 0);
+  border: 3px solid black;
   height: auto;
+  background-color: #ffffff;
+  color: rgb(114, 107, 92);
 }
 
 
 #product1{
-  border: 3px solid rgb(255, 167, 227);
+  border: 3px solid black;
 }
 
 
 #product2{
-  border: 3px solid rgb(249, 110, 180);
+  border: 3px solid black;
 }
 
 
 #product3{
-  border: 3px solid rgb(197, 100, 116);
+  border: 3px solid black;
 }
 
 
 #product4{
-  border: 3px solid rgb(133, 238, 152);
+  border: 3px solid black;
 }
 
 
 #product5{
-  border: 3px solid rgb(243, 226, 118);
+  border: 3px solid black;
 }
 
 
 #product6{
-  border: 3px solid rgb(255, 116, 61);
+  border: 3px solid black;
 }
 
 
 #product7{
-  border: 3px solid rgb(74, 72, 136);
+  border: 3px solid black;
 }
 
 
 #product8{
-  border: 3px solid rgb(107, 107, 101);
+  border: 3px solid black;
 }
 
 
 #product9{
-  border: 3px solid rgb(79, 15, 15);
+  border: 3px solid black;
 }
 
 /*disclaimer thing idk bro im not a lawyer*/
 .disclaimer{
   border: 3px solid black;
+  background-color: #786163;
+  color: rgb(255, 237, 203);
 }
 
 
 /*idk i saw this n i added this bcs it looked cute*/
 .owner{
   border: 3px solid black;
+  background-color: #720714;
+  color: rgb(255, 237, 203);
 }
