@@ -3,11 +3,12 @@ body{
   font-family: sans-serif;
 
   background-size: 300% 300%;
-  background-image: linear-gradient(-45deg, #dad2ff 0%, #dad2ff 25%, #dad2ff 51%, #6dbaed 100%);
+  background-image: linear-gradient(-45deg, #dad2ff 0%, #dad2ff 25%, #dad2ff 51%, #4782C9 100%);
   -webkit-animation: AnimateBG 20s ease infinite;
   animation: AnimateBG 20s ease infinite;
 }
 
+/*animates background cutely so Jake notices me :3*/
 @-webkit-keyframes AnimateBG {
   0% {
     background-position: 0% 50%;
@@ -50,6 +51,8 @@ body{
     "owner owner owner owner owner";
     width: 80%;
     margin-left: 10%;
+
+    
 }
 
 .logo { 
@@ -162,7 +165,7 @@ body{
   position: sticky;
   top: 0.1px;
   background-color: #6b6489;
-  color: rgb(255, 237, 203);
+  color: white;
 }
 
 
@@ -180,13 +183,13 @@ body{
   height: 96%;
   width: 100%;
   background-color: #6b6489;
-  color: rgb(255, 237, 203);
+  color: white;
   border: none;
   outline: none;
 }
 
 .search input::placeholder{
-  color: rgb(214, 200, 175);
+  color: rgb(231, 231, 231);
 }
 
 /*thing where i place cart thing ig? Dk yet*/
@@ -194,14 +197,14 @@ body{
   position: sticky;
   top: 0.1px;
   background-color: #6b6489;
-  color: rgb(255, 237, 203);
+  color: white;
   border-top: 2px solid #393852;
   border-bottom: 2px solid #393852;
 }
 
 .addons button{
   background-color: #6b6489;
-  color: rgb(255, 237, 203);
+  color: white;
   height: 100%;
   width: 33.33%;
   border-left: 3px solid #393852;
@@ -215,13 +218,13 @@ body{
 /*thing with home, new and those things will be placed in here*/
 .additional-info{
   border: 2px solid #393852;
-  background-color: #8b81b6;
-  color: rgb(255, 237, 203);
+  background-color: #b5afcd;
+  color: white;
 }
 
 .additional-info button {
-  background-color: #8b81b6;
-  color: rgb(255, 237, 203);
+  background-color: #b5afcd;
+  color: white;
   height: 100%;
   width: 30%;
   gap: 20%;
@@ -231,15 +234,15 @@ body{
 }
 
 .additional-info button:hover{
-  background-color: #756d99;
+  background-color: #a19db5;
 }
 
 
 /*box where filters will be placed*/
 .Filter{
   border: 2px solid #393852;
-  background-color: #908ba7;
-  color: #F3EDC8;
+  background-color: #C8C2E2;
+  color: rgb(114, 107, 92);
   text-align: center;
 }
 
@@ -254,11 +257,11 @@ body{
 }
 
 .Filter select{
-  background-color: #908ba7;
+  background-color: #C8C2E2;
   font-size: 18px;
   outline: none;
   border: none;
-  color: rgb(255, 237, 203);
+  color: rgb(114, 107, 92);
 
 }
 
@@ -278,7 +281,7 @@ body{
 .products{
   border: 2px solid #393852;
   height: auto;
-  background-color: #C8C2E2;
+  background-color: #c6c6c6;
   color: rgb(114, 107, 92);
   text-align: center;
 }
@@ -398,8 +401,8 @@ body{
 /*disclaimer thing idk bro im not a lawyer*/
 .disclaimer{
   border: 2px solid #393852;
-  background-color: #8b81b6;
-  color: rgb(255, 237, 203);
+  background-color: #b5afcd;
+  color: white;
 }
 
 
@@ -407,5 +410,5 @@ body{
 .owner{
   border: 2px solid #393852;
   background-color: #6b6489;
-  color: rgb(255, 237, 203);
+  color: white;
 }
