@@ -31,7 +31,19 @@
       <input type="text" placeholder="Search..?">
     </div>
 
-    <div class="addons">CART BUTTON OR SUM IDK</div>
+    <div class="addons">
+
+      <button type="button account">
+        <img src="https://th.bing.com/th/id/R.c3def1fb4d0d6f02f32fc20986f0bed6?rik=zWFcM73pfDAEdw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_215059.png&ehk=cpnJPsuf6lEHd7fyViQDbBmwZZJgbettb1OKxGirwRA%3d&risl=&pid=ImgRaw&r=0" 
+        alt="account" height="50px" width="50px">
+        bwap
+      </button>
+
+      <button type="button cart">
+        RAAHH
+      </button>
+
+    </div>
 
     <div class="additional-info">
       <button type="button home">Home</button>
@@ -41,34 +53,48 @@
 
     <div class="Filter">
 
-      <p>Items found:</p>
+      <div id="itemsFound">
+        <p>Total items found: 9</p> <!--Here put variable of the amount of items, do later when u got javascript but for now a placeholder-->
+      </div>
 
-      <p>Price</p>
-
-      <form>
-        <select>
-          <option value="1">All</option>
-          <option value="2">Lower than 10$</option>
-          <option value="3">10$ - 50$</option>
-          <option value="4">50$ - 100$</option>
-          <option value="5">Higher than 100$</option>
-        </select>
-      </form>
-
-      <p>Type</p>
+      <div id="sortBy">
+      <P>Sort by:</P>
 
       <form>
         <select>
 
-          <option value="1">All</option>
-          <option value="2">Original</option>
-          <option value="3">Undertale/Au's</option>
-          <option value="4">Deltarune</option>
-          <option value="5">Fnaf</option>
-          <option value="6">Fnf</option>
+          <option value="1">Most popular</option>
+          <option value="2">Newest</option>
+          <option value="3">Oldest</option>
+          <option value="4">Price: Low-High</option>
+          <option value="5">Price: High-Low</option>
 
         </select>
+      </form>        
+      </div>
+      <div id="gameFilter">
+        <p>Type:</p>
+        <form>      
+        <input type="checkbox" id="Undertale" name="Undertale" value="type1">
+        <label for="Undertale"> Undertale</label><br>
+        <input type="checkbox" id="Deltarune" name="Deltarune" value="type2">
+        <label for="Deltarune"> Deltarune</label><br>
+        <input type="checkbox" id="Original" name="Original" value="type3">
+        <label for="Original"> Original</label><br>
+        <input type="checkbox" id="Fnaf" name="Fnaf" value="type3">
+        <label for="Fnaf"> Fnaf</label><br>
+        <input type="checkbox" id="Fnf" name="Fnf" value="type4">
+        <label for="Fnf"> Fnf</label><br>   
+     
       </form>
+      </div>
+
+      <div id="submitFilter">
+        <input type="submit" value="Filter?" align-self="center">
+      </div>
+
+
+
 
     </div>
 
@@ -76,12 +102,17 @@
 
       <div id="product1">
         <img src="https://i.scdn.co/image/ab67616d0000b27337f7b15671c5778cf0a24408" alt="Stone Cold Killer - Dusttale Original" 
-        height="60%" width="80%">
+        height="60%" width="70%">
         <p>Stone Cold Killer</p>
         <p>Dusttale Orginal</p>
       </div>
 
-      <div id="product2">2</div>
+      <div id="product2">
+        <img src="https://i.scdn.co/image/ab67616d0000b273b46c6f2180b6a41487fed6d0" alt="Darker Yet Darker - Undertale remix"
+        height="60%" width="70%">
+        <p>Darker yet Darker</p>
+        <p>Undertale Remix</p>
+      </div>
 
       <div id="product3">3</div>
 

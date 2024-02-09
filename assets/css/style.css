@@ -1,7 +1,38 @@
 body{
-  background-color: #942B3B;
+  background-color: #575490;
   font-family: sans-serif;
+
+  background-size: 300% 300%;
+  background-image: linear-gradient(-45deg, #dad2ff 0%, #dad2ff 25%, #dad2ff 51%, #6dbaed 100%);
+  -webkit-animation: AnimateBG 20s ease infinite;
+  animation: AnimateBG 20s ease infinite;
 }
+
+@-webkit-keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/*COLOUR CHANGE LETS GOOO
 
 /*grid layout for everything*/
 .container {  
@@ -121,7 +152,7 @@ body{
 /*The make up of everything, eventually merge them together for shorter code pls 
 /*box of everything and anything*/
 .container{
-  border: 3px solid black;
+  border: 2px solid #393852;
   height: 1500px;
   background-color: white;
 }
@@ -129,17 +160,20 @@ body{
 
 /*Logo <3*/
 .logo{
-  border: 3px solid black;
+  border-left: 2px solid #393852;
+  border-top: 2px solid #393852;
+  border-bottom: 2px solid #393852;
   position: sticky;
   top: 0.1px;
-  background-color: #720714;
+  background-color: #6b6489;
   color: rgb(255, 237, 203);
 }
 
 
 /*Search balk*/
 .search{
-  border: 3px solid black;
+  border-top: 2px solid #393852;
+  border-bottom: 2px solid #393852;
   position: sticky;
   top: 0.1px;
 }
@@ -147,31 +181,50 @@ body{
 /*actual thing that searches*/
 .search input[type="text"]{
   font-size: 20px;
-  height: 100%;
+  height: 96%;
   width: 100%;
-  background-color: #720714;
+  background-color: #6b6489;
   color: rgb(255, 237, 203);
   border: none;
+  outline: none;
+}
+
+.search input::placeholder{
+  color: rgb(214, 200, 175);
 }
 
 /*thing where i place cart thing ig? Dk yet*/
 .addons{
-  border: 3px solid black;
   position: sticky;
   top: 0.1px;
-  background-color: #720714;
+  background-color: #6b6489;
   color: rgb(255, 237, 203);
+  border-top: 2px solid #393852;
+  border-bottom: 2px solid #393852;
+}
+
+.addons button{
+  background-color: #6b6489;
+  color: rgb(255, 237, 203);
+  height: 100%;
+  width: 33.33%;
+  border-left: 3px solid #393852;
+}
+
+.addons button:hover{
+  background-color: #5f597a;
+
 }
 
 /*thing with home, new and those things will be placed in here*/
 .additional-info{
-  border: 3px solid black;
-  background-color: #786163;
+  border: 2px solid #393852;
+  background-color: #8b81b6;
   color: rgb(255, 237, 203);
 }
 
 .additional-info button {
-  background-color: #786163;
+  background-color: #8b81b6;
   color: rgb(255, 237, 203);
   height: 100%;
   width: 30%;
@@ -182,95 +235,149 @@ body{
 }
 
 .additional-info button:hover{
-  background-color: #6a5456;
+  background-color: #756d99;
 }
 
 
 /*box where filters will be placed*/
 .Filter{
-  border: 3px solid black;
-  background-color: #b65863;
-  color: rgb(255, 237, 203);
+  border: 2px solid #393852;
+  background-color: #908ba7;
+  color: #F3EDC8;
   text-align: center;
 }
 
+#itemsFound{
+  border-bottom: 1px solid #393852;
+  text-align: left;
+}
+
+#sortBy{
+  border-bottom: 1px solid #393852;
+  text-align: left;
+}
+
 .Filter select{
-  background-color: #96797c;
+  background-color: #908ba7;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  color: rgb(255, 237, 203);
+
+}
+
+#gameFilter{
+  border-bottom: 1px solid #393852;
+  text-align: left;
+}
+
+#submitFilter{
+  border-bottom: 1px solid #393852;
+  text-align: center;
+  padding: 2%;
+
 }
 
 /*boxes of produce*/
 .products{
-  border: 3px solid black;
+  border: 2px solid #393852;
   height: auto;
-  background-color: #ffffff;
+  background-color: #C8C2E2;
   color: rgb(114, 107, 92);
   text-align: center;
 }
 
 
 #product1{
-  border: 3px solid black;
+  border: 2px solid #393852;
   padding: 5%;
 }
 
 #product1:hover{
-  border: 3px solid black;
-  background-color: rgb(222, 222, 222);
+  background-color: #a19cb7;
   color: rgb(114, 107, 92);  
-  padding: 5%;
 }
 
 
 #product2{
-  border: 3px solid black;
+  border: 2px solid #393852;
+  padding: 5%;
+}
+
+#product2:hover{
+  background-color: #a19cb7;
 }
 
 
 #product3{
-  border: 3px solid black;
+  border: 2px solid #393852;
+}
+
+#product3:hover{
+  background-color: #a19cb7;
 }
 
 
 #product4{
-  border: 3px solid black;
+  border: 2px solid #393852;
 }
 
+#product4:hover{
+  background-color: #a19cb7;
+}
 
 #product5{
-  border: 3px solid black;
+  border: 2px solid #393852;
+}
+
+#product5:hover{
+  background-color: #a19cb7;
 }
 
 
 #product6{
-  border: 3px solid black;
+  border: 2px solid #393852;
 }
 
+#product6:hover{
+  background-color: #a19cb7;
+}
 
 #product7{
-  border: 3px solid black;
+  border: 2px solid #393852;
 }
 
+#product7:hover{
+  background-color: #a19cb7;
+}
 
 #product8{
-  border: 3px solid black;
+  border: 2px solid #393852;
 }
 
+#product8:hover{
+  background-color: #a19cb7;
+}
 
 #product9{
-  border: 3px solid black;
+  border: 2px solid #393852;
+}
+
+#product9:hover{
+  background-color: #a19cb7;
 }
 
 /*disclaimer thing idk bro im not a lawyer*/
 .disclaimer{
-  border: 3px solid black;
-  background-color: #786163;
+  border: 2px solid #393852;
+  background-color: #8b81b6;
   color: rgb(255, 237, 203);
 }
 
 
 /*idk i saw this n i added this bcs it looked cute*/
 .owner{
-  border: 3px solid black;
-  background-color: #720714;
+  border: 2px solid #393852;
+  background-color: #6b6489;
   color: rgb(255, 237, 203);
 }
