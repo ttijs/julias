@@ -145,10 +145,6 @@ body{
 }
 
 
-
-
-
-
 /*The make up of everything, eventually merge them together for shorter code pls 
 /*box of everything and anything*/
 .container{
@@ -290,81 +286,113 @@ body{
 
 #product1{
   border: 2px solid #393852;
+  background-color: white;
   padding: 5%;
 }
 
 #product1:hover{
-  background-color: #a19cb7;
+  background-color: rgb(235, 235, 235);
   color: rgb(114, 107, 92);  
 }
 
 
 #product2{
   border: 2px solid #393852;
+  background-color: white;
   padding: 5%;
 }
 
 #product2:hover{
   background-color: #a19cb7;
+  background-color: rgb(235, 235, 235);
+
 }
 
 
 #product3{
   border: 2px solid #393852;
+  background-color: white;
+
 }
 
 #product3:hover{
   background-color: #a19cb7;
+  background-color: rgb(235, 235, 235);
+
 }
 
 
 #product4{
   border: 2px solid #393852;
+  background-color: white;
+
 }
 
 #product4:hover{
   background-color: #a19cb7;
+  background-color: rgb(235, 235, 235);
+
 }
 
 #product5{
   border: 2px solid #393852;
+  background-color: white;
+
 }
 
 #product5:hover{
   background-color: #a19cb7;
+  background-color: rgb(235, 235, 235);
+
 }
 
 
 #product6{
   border: 2px solid #393852;
+  background-color: white;
+
 }
 
 #product6:hover{
   background-color: #a19cb7;
+  background-color: rgb(235, 235, 235);
+
 }
 
 #product7{
   border: 2px solid #393852;
+  background-color: white;
+
 }
 
 #product7:hover{
   background-color: #a19cb7;
+  background-color: rgb(235, 235, 235);
+
 }
 
 #product8{
   border: 2px solid #393852;
+  background-color: white;
+
 }
 
 #product8:hover{
   background-color: #a19cb7;
+  background-color: rgb(235, 235, 235);
+
 }
 
 #product9{
   border: 2px solid #393852;
+  background-color: white;
+
 }
 
 #product9:hover{
   background-color: #a19cb7;
+  background-color: rgb(235, 235, 235);
+
 }
 
 /*disclaimer thing idk bro im not a lawyer*/

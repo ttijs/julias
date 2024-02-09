@@ -1,1 +1,0 @@
-var slider = document.getElementById("MyRange")
