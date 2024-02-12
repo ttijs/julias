@@ -3,7 +3,7 @@ body{
   font-family: sans-serif;
 
   background-size: 300% 300%;
-  background-image: linear-gradient(-45deg, #967cffa8 0%, #967cffa8 25%, #967cffa8 51%, #513ba7a8 100%);
+  background-image: linear-gradient(-45deg, #967cffa8 0%, #967cffa8 25%, #967cffa8 51%, #2f206da8 100%);
   -webkit-animation: AnimateBG 20s ease infinite;
   animation: AnimateBG 20s ease infinite;
 }
