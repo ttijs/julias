@@ -76,7 +76,6 @@ body{
   border-bottom: 2px solid #13293D;
   position: sticky;
   top: 0.1px;
-  margin-bottom: -0.1%;
 }
 
 /*actual thing that searches*/
@@ -121,6 +120,7 @@ body{
   background-color: #5177bc;
 
   color: #13293D;
+  cursor: pointer;
 
 }
 
@@ -151,6 +151,8 @@ padding: 1%;
 
 .additional-info button:hover{
   background-color: #7f98c3;
+  cursor: pointer;
+
 }
 
 
@@ -200,13 +202,57 @@ padding: 1%;
 
 }
 
+#price{
+  border: 1px solid #6495ED;  
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 5%;
+  padding: 5%;
+}
+
+.slideContainer{
+  width: 100%;
+}
+
+.slider {
+  appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #6495ED;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #ffffff;
+  cursor: pointer;
+}
+
 #submitFilter{
   border: 1px solid #6495ED;  
   border-radius: 15px;
   text-align: center;
   padding: 2%;
   margin-bottom: 5%;
+}
 
+#submitFilter button{
+  border: 1px solid #6495ED;
+  width: 30%;
+  height: 50%;
+}
+
+#submitFilter button:hover{
+  background-color: rgb(235, 235, 235);
+  cursor: pointer;
 }
 
 
@@ -296,6 +342,22 @@ padding: 1%;
   width: 293%;
   margin-bottom: 5%;
   margin-left: 5%;
+}
+
+.skip{
+  border: 2px solid #6495ED;
+  background-color: white;
+  padding: 5%;
+  border-radius: 15px;
+}
+
+.productButtons{
+  border: 1px solid #6495ED;  
+  border-radius: 15px;
+}
+
+.productButtons:hover{
+  cursor: pointer;
 }
 
 .disclaimer { 
