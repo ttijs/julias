@@ -215,152 +215,64 @@ color: white;
     text-align: center;
 }
 
+.product-item{
+  border: 2px solid #393852;
+  background-color: white;
+  padding: 5%;
+}
 
-#product1 { 
+.product-item:hover{
+  background-color: rgb(235, 235, 235);
+  color: rgb(114, 107, 92);  
+}
+#product1{ 
   grid-area: product1; 
   margin-left: 5%; 
   margin-top: 5%;
-
-    /*style*/
-    border: 2px solid #393852;
-    background-color: white;
-    padding: 5%;
-}
-#product1:hover{
-  background-color: rgb(235, 235, 235);
-color: rgb(114, 107, 92);  
 }
 
 
 #product2 { 
   grid-area: product2; 
   margin-top: 5%;
-
-    /*style*/
-    border: 2px solid #393852;
-    background-color: white;
-    padding: 5%;
-}
-
-#product2:hover{
-  background-color: #a19cb7;
-  background-color: rgb(235, 235, 235);
-
 }
 
 #product3 { 
   grid-area: product3; 
   margin-right: 5%; 
   margin-top: 5%;
-
-    /*style*/
-    border: 2px solid #393852;
-    background-color: white;
-    padding: 5%;
-}
-
-#product3:hover{
-  background-color: #a19cb7;
-  background-color: rgb(235, 235, 235);
-
 }
 
 #product4 { 
   grid-area: product4; 
   margin-left: 5%;
-
-    /*style*/
-    border: 2px solid #393852;
-    background-color: white;
-    padding: 5%;
-}
-
-#product4:hover{
-  background-color: #a19cb7;
-  background-color: rgb(235, 235, 235);
-
 }
 
 #product5 { 
   grid-area: product5; 
-
-    /*style*/
-    border: 2px solid #393852;
-    background-color: white;
-    padding: 5%;
-}
-
-#product5:hover{
-  background-color: #a19cb7;
-  background-color: rgb(235, 235, 235);
-
 }
 
 #product6 { 
   grid-area: product6; 
   margin-right: 5%;
-
-    /*style*/
-    border: 2px solid #393852;
-    background-color: white;
-    padding: 5%;
-}
-
-#product6:hover{
-  background-color: #a19cb7;
-  background-color: rgb(235, 235, 235);
-
 }
 
 #product7 { 
   grid-area: product7; 
   margin-left: 5%; 
   margin-bottom: 5%;
-
-    /*style*/
-    border: 2px solid #393852;
-    background-color: white;
-    padding: 5%;
-}
-
-#product7:hover{
-  background-color: #a19cb7;
-  background-color: rgb(235, 235, 235);
-
 }
 
 #product8 { 
   grid-area: product8; 
   margin-bottom: 5%;
-
-    /*style*/
-    border: 2px solid #393852;
-    background-color: white;
-    padding: 5%;
 }
-
-#product8:hover{
-  background-color: #a19cb7;
-  background-color: rgb(235, 235, 235);
-
-}
-
 #product9 { 
   grid-area: product9; 
   margin-right: 5%; 
   margin-bottom: 5%;
-
-    /*style*/
-    border: 2px solid #393852;
-    background-color: white;
-    padding: 5%;
 }
 
-#product9:hover{
-  background-color: #a19cb7;
-  background-color: rgb(235, 235, 235);
-
-}
 
 .disclaimer { 
   grid-area: disclaimer; 
