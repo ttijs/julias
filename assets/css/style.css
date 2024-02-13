@@ -382,3 +382,15 @@ padding: 1%;
   width: 30%;
   border-radius: 15px;
 }
+
+/*YOU'LL NEVER SEE IT COMIIINGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG YOU'LL SEE*/
+
+@media screen and (max-width: 840px) {
+  body{
+    background-color: red;
+  }
+
+  .products{
+    grid-template-rows: 2;
+  }
+}
