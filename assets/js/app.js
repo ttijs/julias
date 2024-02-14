@@ -24,4 +24,24 @@ output.innerHTML = slider.value;
 
 slider.oninput = function() {
   output.innerHTML = this.value;
+  adjustProducts();
+}
+
+function adjustProducts(){
+  var productOne = document.getElementById("product1");
+  var productTwo = document.getElementById("product2");
+  var productThree = document.getElementById("product3");
+  var productFour = document.getElementById("product4");
+  var productFive = document.getElementById("product5");
+  var productSix = document.getElementById("product6");
+  var productSeven = document.getElementById("product7");
+  var productEight = document.getElementById("product8");
+  var productNine = document.getElementById("product9");
+  var productTen = document.getElementById("product10");
+  var productEleven = document.getElementById("product11");
+  var productTwelve = document.getElementById("product12");
+
+  
+
+
 }
